@@ -2,3 +2,26 @@ Basic Docker commands
 
 To Install  :   yum install docker -y
 version     :    docker version or docker --version 
+start docker service  :   service docker start
+                          systemctl start docker
+status   :     service docker status
+               systemctl status docker
+Docker info  :   docker info
+all images in local machine :   docker images
+search an image:   docker search image  ex: docker search ubuntu
+download docker image to local:  docker pull imagename
+download and run the image at a time : docker run -it <<imagename>> /etc/bash
+Name a container:  docker run -it --name Hema imagename /bin/bash
+start a container :  docker start container
+to go inside container : docker attach containername
+see the details of container :  cat /etc/os-release
+to get out of the container : exit
+To see container : docker ps (shows running) docker ps -a (all containers)
+To Stop container   :  docker stop container name
+To Delete a container   :  docker rm container name
+
+remove all the file   :   rm -rf  *
+
+
+
+               
