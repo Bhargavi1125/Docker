@@ -1,0 +1,4 @@
+Basic Docker commands
+
+To Install  :   yum install docker -y
+version     :    docker version or docker --version 
